@@ -1,0 +1,16 @@
+@mixin phone {
+	@media only screen and (max-width: 480px) {	
+		@content;
+	}
+}
+@mixin pc {
+	@media only screen and (min-width: 980px) {
+		@content;
+	}
+}
+
+@mixin centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

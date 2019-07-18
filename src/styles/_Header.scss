@@ -1,0 +1,16 @@
+@import './style';
+#header{
+    display: flex;
+	padding:2.4rem 4.8rem;
+	
+	h2{
+		font-size:1.8rem;
+	}
+	nav{
+		margin-left:auto;
+		a{
+			margin:2rem;
+			font-size:1.4rem;
+		}
+	}
+}

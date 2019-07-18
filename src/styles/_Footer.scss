@@ -1,0 +1,19 @@
+@import './style';
+#footer{
+	@include centered;
+	padding:2.5rem 1.6rem;
+	flex-direction: column;
+	width:100%;
+	position: fixed;
+  	bottom: 0;
+	right: 0;
+	a{
+		margin-right:2.5rem;
+		&:last-child{
+			margin-right:0rem;
+		}
+	}
+	div{
+		margin-bottom:2.5rem;
+	}
+}

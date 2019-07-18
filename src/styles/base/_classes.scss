@@ -1,0 +1,43 @@
+	.instagram::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/Instagram.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
+	.facebook::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/FB.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
+	.twitter::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/Twitter.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
+	.linkedin::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/Linkedin.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
+	.github::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/Github.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
+	.bold{
+			font-weight: bold;
+	}
