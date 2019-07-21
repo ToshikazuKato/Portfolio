@@ -1,0 +1,14 @@
+@import './style';
+
+#intro{
+	height:100vh;
+	width:100vw;
+	@include centered;
+	div{
+		// @include centered;	
+		text-align:center;
+	}
+	p{
+		font-size:2.8rem;
+	}
+}

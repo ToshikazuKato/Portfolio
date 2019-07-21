@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Works from './Works';
 
 class Content extends Component {
 
@@ -6,8 +7,9 @@ class Content extends Component {
 	render() {
 		return (
 
-			<div id="header">
-				<p>Hello world</p>
+			<div id="content">
+				<h2> Portfolio </h2>
+				<Works />
 			</div>
 
 		);
