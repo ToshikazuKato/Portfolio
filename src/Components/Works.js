@@ -37,9 +37,12 @@ class Works extends Component{
 			<div id="works">
 				{
 					this.state.data.map( (v,i) => {
-						return <div className="mask" key={i}>
-									<p>{v.title}</p>
+						
+						return <div className="container" key={i}>
 									<img className="image" src={v.url}></img>
+									<div className="overlay">
+										<p>{v.title}</p>
+									</div>
 								</div>
 					})
 				}
