@@ -2,7 +2,7 @@
 
 #intro{
 	height:100vh;
-	width:100vw;
+	// width:100vw;
 	@include centered;
 	div{
 		// @include centered;	
@@ -12,3 +12,9 @@
 		font-size:2.8rem;
 	}
 }
+
+// <Route exact path="/courses" render={() => <Courses />} />
+// <PrivateRoute exact path="/courses/create" component={CreateCourse} />
+// <PrivateRoute exact path="/courses/:id/update" component={UpdateCourse} />
+// <Route exact path="/courses/:id" render={props => <CourseDetail {...props} />} />
+// <Route exact path="/signin" render={(props) => <UserSignIn {...props} />} /> 

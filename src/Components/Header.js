@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import {NavLink} from 'react-router-dom';
 class Header extends Component {
 
 
@@ -8,8 +8,8 @@ class Header extends Component {
 			<header id="header">
 				<h2>Toshikazu, H</h2>
 				<nav>
-					<a href="#" className='bold'>Portfolio</a>
-					<a href="#" >Me</a>
+					<NavLink to="/portfolio" className='bold'>Portfolio</NavLink>
+					<NavLink to="/me" >Me</NavLink>
 				</nav>
 			</header>
 		);
