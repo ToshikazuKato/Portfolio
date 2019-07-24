@@ -38,6 +38,10 @@
 		height:18px;
 		width:18px;
 	}
-	.active{
-		font-weight: bold;
+	#header{
+		.active{
+			font-weight: bold;
+			color:$base-color;
+		}
 	}
+	

@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
 	  <BrowserRouter>
-			  <Switch>
-				  <Route exact path="/" render={() => <Content />} />
-				  <Route exact path="/portfolio" render={() => <Content />} />
-				  <Route exact path="/me" render={() => <Me />} />
-			  </Switch>
-			  <Footer />
+		<Switch>
+			<Route exact path="/" render={() => <Redirect to="/portfolio" />} />
+			<Route exact path="/portfolio" render={() => <Content />} />
+			<Route exact path="/me" render={() => <Me />} />
+		</Switch>
+		<Footer />
 	  </BrowserRouter>
     </div>
   );

@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,400,600,700');
+
+$base-color:#666666;
+$light-color:#adadad;
+
 *{
 	margin:0;
 	padding:0;
@@ -7,7 +11,7 @@
 }
 body{
 	font-size:1.6rem;
-	color:#666666;
+	color:$base-color;
 	font-family: 'Poppins', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	max-width: 1440px;
 	margin:0 auto;
@@ -15,7 +19,7 @@ body{
 
 a{
 	text-decoration: none;
-	color:#666666;
+	color:$light-color;
 }
 
 p{

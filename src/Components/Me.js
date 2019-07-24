@@ -8,8 +8,8 @@ class Me extends Component {
 		return (
 			<div id="content">
 				<Header />
-				<h2> Me </h2>
 				<About />
+				<h2> Me </h2>
 			</div>
 
 		);
