@@ -1,10 +1,13 @@
 @import './style';
 #header{
     display: flex;
-	padding:2.4rem 4.8rem;
-	
+	align-items: center;
+	padding:0rem 4.8rem;
+	height:10vh;
 	h2{
 		font-size:2.4rem;
+		margin-bottom:0;
+		color: $base-color;
 	}
 	nav{
 		margin-left:auto;

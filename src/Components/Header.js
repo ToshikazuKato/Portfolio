@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 class Header extends Component {
 
 
 	render(){
 		return(
 			<header id="header">
-				<h2>Toshikazu, H</h2>
+				<Link to="/"><h2>Toshikazu, H</h2></Link>
 				<nav>
 					<NavLink to="/portfolio" className='bold'>Portfolio</NavLink>
 					<NavLink to="/me" >Me</NavLink>
