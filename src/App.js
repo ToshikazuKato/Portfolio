@@ -1,8 +1,9 @@
 import React from 'react';
-import { Route, Switch, BrowserRouter, Redirect, withRouter } from "react-router-dom";
+import { Route, Switch, withRouter} from "react-router-dom";
 import Intro from './Components/Intro';
 import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
+import Project from './Components/Project';
 import Me from './Components/Me';
 import Footer from './Components/Footer';
 import './styles/App.scss';
@@ -10,19 +11,18 @@ import './styles/App.scss';
 function App() {
   return (
     <div className="App">
-	  <BrowserRouter>
 	    <Header />
 		<Switch>
 			<Route exact path="/" render={() => <Intro />} />
-			<Route exact path="/portfolio" render={() => <Portfolio />} />
+			<Route exact path="/portfolio" render={(props) => <Portfolio {...props} />} />
 			<Route exact path="/me" render={() => <Me />} />
+			<Route exact path="/portfolio/:title" render={(props) => <Project {...props} />} />
 		</Switch>
 		<Footer />
-	  </BrowserRouter>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
  
 

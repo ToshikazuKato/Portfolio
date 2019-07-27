@@ -1,10 +1,9 @@
 @import './style';
 #works{
-	display:flex;
-	justify-content: center;
-	align-items: center;
+	@include centered;
 	flex-wrap: wrap;
-	margin-top:1.8rem;
+	// margin-top:1.8rem;
+	height:100%;
 	.container{
 		position:relative;
 		margin: 0 0.8rem;

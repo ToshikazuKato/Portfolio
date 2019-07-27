@@ -1,7 +1,6 @@
 @import './style';
-#portfolio{
+#project{
 	@include centered;
 	@include main-frame;
 	flex-direction:column;
-	
 }

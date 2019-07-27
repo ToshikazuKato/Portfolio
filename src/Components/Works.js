@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+const { projects } = require('../projects.json');
+
 class Works extends Component{
 
 	state = {
@@ -11,25 +13,21 @@ class Works extends Component{
 	}
 
 	getPortfolios = () => {
-		const data = [
-			{
-				url:"images/Travel.jpg",
-				title:"Travel",
-			},
-			{
-				url: "images/Coffee.jpg",
-				title: "Coffee",
-			},
-			{
-				url: "images/Japan.jpg",
-				title: "Japan",
-			},
-			{
-				url: "images/Engineer.jpg",
-				title: "Engineer",
-			},
-		];
-		this.setState({data:data});
+		const title = this.props.match.url.replace('/portfolio/', '');
+		console.log(title, 'title');
+
+		const prj = projects.filter(v => v.title !== title);
+		console.log(prj,'prj');
+		this.setState({ data: projects});
+		
+	}
+
+	renderProjectDetails = (e, val	) => {
+		e.preventDefault();
+		e.stopPropagation();
+		this.props.history.push(`/portfolio/${val.title}`,{
+			project : val
+		});
 	}
 
 	render(){
@@ -38,8 +36,8 @@ class Works extends Component{
 				{
 					this.state.data.map( (v,i) => {
 						
-						return <div className="container" key={i}>
-									<img className="image" src={v.url}></img>
+						return  <div className="container" key={i} onClick={(e) => this.renderProjectDetails(e, v)}>
+									<img className="image" src={v.image} alt="Project"></img>
 									<div className="overlay">
 										<p>{v.title}</p>
 									</div>

@@ -4,12 +4,11 @@ import Works from './Works';
 
 class Portfolio extends Component {
 
-
 	render() {
 		return (
-			<div id="content">
+			<div id="portfolio">
 				<h2> Portfolio </h2>
-				<Works />
+				<Works {...this.props} />
 			</div>
 
 		);

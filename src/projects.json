@@ -1,0 +1,40 @@
+{
+	"projects":[
+		{	
+			"id": 1,
+			"image" : "/images/Travel.jpg",
+			"title" : "Travel",
+			"technologies":[],
+			"description":"",
+			"live_link":"",
+			"github_link":""
+		},
+		{	
+			"id": 2,
+			"image": "/images/Coffee.jpg",
+			"title": "Coffee",
+			"technologies": [],
+			"description":"",
+			"live_link": "",
+			"github_link": ""
+		},
+		{	
+			"id": 3,
+			"image" : "/images/Japan.jpg",
+			"title" : "Japan",
+			"technologies": [],
+			"description":"",
+			"live_link": "",
+			"github_link": ""
+		},
+		{	
+			"id": 4,
+			"image" : "/images/Engineer.jpg",
+			"title" : "Engineer",
+			"technologies": [],
+			"description":"",
+			"live_link": "",
+			"github_link": ""
+		}
+	]
+}

@@ -8,11 +8,11 @@ class Footer extends Component {
 
 			<div id="footer">
 				<div>
-					<a href="#" className="instagram"></a>
-					<a href="#" className="facebook"></a>
-					<a href="#" className="twitter"></a>
-					<a href="#" className="linkedin"></a>
-					<a href="#" className="github"></a>
+					<a rel="noopener noreferrer" href="https://www.instagram.com/kazu27bsk/" target="_blank" className="instagram"> </a>
+					<a rel="noopener noreferrer" href="https://www.facebook.com/toshikazu.horioka.906" target="_blank" className="facebook"> </a>
+					<a rel="noopener noreferrer" href="https://twitter.com/kazuh65387832" target="_blank" className="twitter"> </a>
+					<a rel="noopener noreferrer" href="https://www.linkedin.com/in/toshikazu-horioka-31785b167/" target="_blank" className="linkedin"> </a>
+					<a rel="noopener noreferrer" href="https://github.com/ToshikazuKato" target="_blank" className="github"> </a>
 				</div>
 				<p className='bold'>toshikazu@gmail.com</p>
 			</div>

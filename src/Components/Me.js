@@ -5,7 +5,7 @@ class Me extends Component {
 
 	render() {
 		return (
-			<div id="content">
+			<div id="me">
 				<h2> Me </h2>
 				<About />
 			</div>
