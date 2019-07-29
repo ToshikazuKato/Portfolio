@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,400,600,700');
-
+@import './mixins';
 $base-color:#666666;
 $light-color:#adadad;
 
@@ -31,5 +31,8 @@ p{
 h2{
 	font-size:4rem;
 	margin-bottom:1.6rem;
+	@include phone(){
+		font-size:3.2rem;
+	}
 }
 
