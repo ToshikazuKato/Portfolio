@@ -8,6 +8,7 @@
 	// position: fixed;
   	bottom: 0;
 	right: 0;
+	
 	a{
 		margin-right:2.5rem;
 		&:last-child{
@@ -16,5 +17,9 @@
 	}
 	div{
 		margin-bottom:2.5rem;
+		z-index:1;
+	}
+	p{
+		z-index:1;	
 	}
 }

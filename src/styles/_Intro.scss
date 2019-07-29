@@ -5,16 +5,21 @@
 	@include centered;
 	@include main-frame;
 	div{
-		// @include centered;	
 		text-align:center;
+		z-index:1;
 	}
 	p{
 		font-size:2.8rem;
 	}
+	.canvas{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100vw;
+		height:100vh;
+	}
+	#canvas{
+		width:100vw;
+		height:100vh;
+	}
 }
-
-// <Route exact path="/courses" render={() => <Courses />} />
-// <PrivateRoute exact path="/courses/create" component={CreateCourse} />
-// <PrivateRoute exact path="/courses/:id/update" component={UpdateCourse} />
-// <Route exact path="/courses/:id" render={props => <CourseDetail {...props} />} />
-// <Route exact path="/signin" render={(props) => <UserSignIn {...props} />} /> 
