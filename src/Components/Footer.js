@@ -14,7 +14,7 @@ class Footer extends Component {
 					<a rel="noopener noreferrer" href="https://www.linkedin.com/in/toshikazu-horioka-31785b167/" target="_blank" className="linkedin"> </a>
 					<a rel="noopener noreferrer" href="https://github.com/ToshikazuKato" target="_blank" className="github"> </a>
 				</div>
-				<p className='bold'>toshikazu@gmail.com</p>
+				<a href="mailto:toshikazu@gmail.com"><p className='bold'>toshikazu@gmail.com</p></a>
 			</div>
 
 		);

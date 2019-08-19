@@ -14,15 +14,12 @@ class Works extends Component{
 
 	getPortfolios = () => {
 		const title = this.props.match.url.replace('/portfolio/', '');
-		console.log(title, 'title');
 
 		const prj = projects.filter(v => v.title !== title);
-		console.log(prj,'prj');
 		this.setState({ data: projects});
-		
 	}
 
-	renderProjectDetails = (e, val	) => {
+	renderProjectDetails = (e, val) => {
 		e.preventDefault();
 		e.stopPropagation();
 		this.props.history.push(`/portfolio/${val.title}`,{

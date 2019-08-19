@@ -8,8 +8,6 @@ $light-color:#adadad;
 	margin:0;
 	padding:0;
 	font-size:62.5%;
-	overflow-x: hidden;
-	overflow-y: hidden;
 }
 body{
 	font-size:1.6rem;
@@ -17,6 +15,7 @@ body{
 	font-family: 'Poppins', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 	max-width: 1440px;
 	margin:0 auto;
+	overflow-x: hidden;
 }
 
 a{
@@ -29,6 +28,7 @@ p{
 }
 
 h2{
+	text-shadow: 0 0 1px #dfdfdf, 4px 4px 2px #dfdfdf;
 	font-size:4rem;
 	margin-bottom:1.6rem;
 	@include phone(){

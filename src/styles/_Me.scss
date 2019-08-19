@@ -3,4 +3,6 @@
 	@include centered;
 	@include main-frame;
 	flex-direction: column;
+	@include phone(){
+	}
 }

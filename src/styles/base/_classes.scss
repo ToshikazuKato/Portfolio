@@ -38,6 +38,14 @@
 		height:18px;
 		width:18px;
 	}
+	.link::before{
+		content:'';
+		display:inline-block;
+		background-image: url("/images/link.svg");
+		background-repeat: no-repeat;
+		height:18px;
+		width:18px;
+	}
 	#header{
 		.active{
 			font-weight: bold;

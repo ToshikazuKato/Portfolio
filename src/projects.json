@@ -4,37 +4,37 @@
 			"id": 1,
 			"image" : "/images/Travel.jpg",
 			"title" : "Travel",
-			"technologies":[],
-			"description":"",
-			"live_link":"",
-			"github_link":""
+			"technologies":["HTML", "CSS", "JavaScript", "React"],
+			"description":"This is a travel web application that suggests cool places to visit.",
+			"live_link":"http://localhost:3000/portfolio/Travel",
+			"github_link":"http://localhost:3000/portfolio/Travel"
 		},
 		{	
 			"id": 2,
 			"image": "/images/Coffee.jpg",
 			"title": "Coffee",
-			"technologies": [],
-			"description":"",
-			"live_link": "",
-			"github_link": ""
+			"technologies": ["HTML", "CSS", "JavaScript", "React", "Express"],
+			"description":"This app helps you find your favourites coffee beans by answering some questions.",
+			"live_link": "http://localhost:3000/portfolio/Coffee",
+			"github_link": "http://localhost:3000/portfolio/Coffee"
 		},
 		{	
 			"id": 3,
 			"image" : "/images/Japan.jpg",
 			"title" : "Japan",
-			"technologies": [],
-			"description":"",
-			"live_link": "",
-			"github_link": ""
+			"technologies": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+			"description":"You'll find everything you need to know about Japan when you travel Japan.",
+			"live_link": "http://localhost:3000/portfolio/Japan",
+			"github_link": "http://localhost:3000/portfolio/Japan"
 		},
 		{	
 			"id": 4,
 			"image" : "/images/Engineer.jpg",
 			"title" : "Engineer",
-			"technologies": [],
-			"description":"",
-			"live_link": "",
-			"github_link": ""
+			"technologies": ["HTML", "CSS", "JavaScript", "React", "API" , "Express"],
+			"description":"Learning programming is hard when you try to master it by yourself. Let us help you learn new technology in an efficient way.",
+			"live_link": "http://localhost:3000/portfolio/Engineer",
+			"github_link": "http://localhost:3000/portfolio/Engineer"
 		}
 	]
 }
