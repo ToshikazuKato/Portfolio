@@ -4,5 +4,6 @@
 	@include main-frame;
 	flex-direction: column;
 	@include phone(){
+		// height:auto;
 	}
 }

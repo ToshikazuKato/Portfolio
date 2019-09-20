@@ -22,6 +22,11 @@ class Works extends Component{
 	renderProjectDetails = (e, val) => {
 		e.preventDefault();
 		e.stopPropagation();
+		window.scroll({
+			top:0,
+			left:0,
+			behavior:'smooth'
+		});
 		this.props.history.push(`/portfolio/${val.title}`,{
 			project : val
 		});

@@ -10,27 +10,28 @@ class Project extends Component {
 		this.updateContents();
 	}
 	componentDidUpdate(){
-		if (this.state.project !== this.props.history.location.state.project){
+		if (this.state.project !== this.props.location.state.project){
 			this.updateContents();
 		}
 	}
 	updateContents = () => {
 		this.setState({
-			project: this.props.history.location.state.project
+			project: this.props.location.state.project
 		});
+		console.log(this.state,'state');
 	}
 	render(){
 		return <div id="project">
 					<h2>{this.state.project.title}</h2>
 					<img src={this.state.project.image} alt={this.state.project.title}></img>
-					<div className="project-description">
+					{/* <div className="project-description">
 						<p>{this.state.project.description}</p>
-					</div>
+					</div> */}
 
-					<div className="project-link">
+					{/* `<div className="project-link">
 						<a rel="noopener noreferrer" href={this.state.project.live_link} target="_blank" className="link"> </a>
 						<a rel="noopener noreferrer" href={this.state.project.github_link} target="_blank" className="github"> </a>
-					</div>
+					</div>` */}
 					{/* <div className="tech">
 						<ul>
 							{

@@ -14,13 +14,13 @@
 		&:last-child{
 			margin-right:0rem;
 		}
+		z-index:1;
 	}
 	div{
 		margin-bottom:2.5rem;
 		z-index:1;
 	}
 	p{
-		z-index:1;
 		color:$base-color;	
 	}
 }
