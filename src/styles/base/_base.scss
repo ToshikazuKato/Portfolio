@@ -9,8 +9,8 @@ $light-color:#adadad;
 	padding:0;
 	font-size:62.5%;
 	@include phone(){
-		overflow-y: scroll; 
-		-webkit-overflow-scrolling: touch;
+		// overflow-y: scroll; 
+		// -webkit-overflow-scrolling: touch;
 	}
 }
 body{
