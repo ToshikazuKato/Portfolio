@@ -18,6 +18,11 @@
 	nav{
 		margin-left:auto;
 		z-index:2;
+		a{
+			@include phone(){
+				margin:0.7rem;
+			}
+		}
 	}
 	a{
 		margin:2rem;
@@ -26,6 +31,7 @@
 		font-weight: normal;
 		z-index:2;
 		@include phone(){
+			margin:0;
 			font-size:1.4rem;
 		}
 		&:hover{
@@ -33,5 +39,5 @@
 			$color:$base-color;
 		}
 	}
-	
+
 }

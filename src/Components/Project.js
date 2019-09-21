@@ -6,6 +6,10 @@ class Project extends Component {
 	state = {
 		project:[]
 	};
+	componentWillMount(){
+		this.setState({ project: this.props.location.state.project },
+			() => console.log(this.state, 'state'));
+	}
 	componentDidMount(){
 		this.updateContents();
 	}
@@ -15,15 +19,24 @@ class Project extends Component {
 		}
 	}
 	updateContents = () => {
-		this.setState({
-			project: this.props.location.state.project
-		});
-		console.log(this.state,'state');
+		this.setState({project: this.props.location.state.project},
+			() => console.log(this.state, 'state'));
 	}
 	render(){
 		return <div id="project">
 					<h2>{this.state.project.title}</h2>
-					<img src={this.state.project.image} alt={this.state.project.title}></img>
+					<ul> 
+						{/* <h3>Skills : </h3> */}
+						{this.state.project.technologies.map( (tech,i) => {
+						return <li key={i}>{tech}</li>
+						} )}
+					</ul>
+					{
+						this.state.project.images.map( (img,i) =>{
+							return <img src={img} alt={this.state.project.title} key={i}></img>
+						})
+					}
+					{/* <img src={this.state.project.image} alt={this.state.project.title}></img> */}
 					{/* <div className="project-description">
 						<p>{this.state.project.description}</p>
 					</div> */}

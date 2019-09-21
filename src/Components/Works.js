@@ -13,9 +13,8 @@ class Works extends Component{
 	}
 
 	getPortfolios = () => {
-		const title = this.props.match.url.replace('/portfolio/', '');
-
-		const prj = projects.filter(v => v.title !== title);
+		// const title = this.props.match.url.replace('/portfolio/', '');
+		// const prj = projects.filter(v => v.title !== title);
 		this.setState({ data: projects});
 	}
 
@@ -39,7 +38,7 @@ class Works extends Component{
 					this.state.data.map( (v,i) => {
 						
 						return  <div className="container" key={i} onClick={(e) => this.renderProjectDetails(e, v)}>
-									<img className="image" src={v.image} alt="Project"></img>
+									<img className="image" src={v.images[0]} alt="Project"></img>
 									<div className="overlay">
 										<p>{v.title}</p>
 									</div>

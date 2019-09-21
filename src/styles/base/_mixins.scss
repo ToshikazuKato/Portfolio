@@ -1,10 +1,29 @@
-@mixin phone {
-	@media only screen and (max-width: 480px) {	
+@mixin iphone5 {
+	@media only screen and (max-width : 320px) {	
 		@content;
 	}
 }
+
+@mixin phone {
+	@media only screen and (max-width : 480px) {	
+		@content;
+	}
+}
+
+@mixin ipad {
+	@media only screen and (min-width:768px) and (max-width: 1024px) {
+		@content;
+	}
+}
+
+@mixin ipadpro{
+	@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+		@content;
+	}
+}
+
 @mixin pc {
-	@media only screen and (min-width: 980px) {
+	@media only screen and (min-width: 1366px) {
 		@content;
 	}
 }
