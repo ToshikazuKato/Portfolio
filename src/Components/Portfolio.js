@@ -7,7 +7,7 @@ class Portfolio extends Component {
 		return (
 			<div id='portfolio'>
 				<div className='portfolio'>
-					<h1 className='heading-primary'> Portfolio </h1>
+					<h1 className='heading-primary'> Projects </h1>
 					<Works {...this.props} />
 				</div>
 			</div>
