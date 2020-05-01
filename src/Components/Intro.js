@@ -4,14 +4,14 @@ import Canvas from './Canvas';
 class Intro extends Component {
 
 	render(){
-		return(
-			<div id="intro">
+		return (
+			<div id='intro'>
 				<Canvas />
-				<div>
-					<h2>Toshikazu Horioka</h2>
-					<p>I'm a Japanese Fullstack Engineer based in Tokyo.</p>
-					<p> I build web services that make the world better</p>
-					<p> and help people live better.</p>
+				<div className='content'>
+					<h1 className='heading-primary'>Toshikazu Horioka</h1>
+					<p className='content__paragraph'>
+						Fullstack Engineer, Japan
+					</p>
 				</div>
 			</div>
 		);

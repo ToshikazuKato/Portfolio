@@ -4,14 +4,24 @@ class Header extends Component {
 
 
 	render(){
-		return(
-			<header id="header">
-				<Link to="/"><h2>Toshikazu, H</h2></Link>
-				<nav>
-					<NavLink to="/portfolio" className='bold'>Portfolio</NavLink>
-					<NavLink to="/me" >Me</NavLink>
-				</nav>
-			</header>
+		return (
+
+<header id='header' className='header'>
+	<nav className='navigation'>
+		<div className='navigation__item'>
+			<Link to='/' className='navigation__link navigation__link-main'>
+				Toshikazu, H
+			</Link>
+		</div>
+		<div className='navigation__item'>
+			<NavLink to='/portfolio' className='navigation__link'>Projets</NavLink>
+		</div>
+		<div className='navigation__item'>
+			<NavLink to='/me' className='navigation__link'>About</NavLink>
+		</div>
+	</nav>
+</header>
+
 		);
 	}
 

@@ -1,40 +1,45 @@
 {
-	"projects":[
-		{	
+	"projects": [
+		{
 			"id": 1,
-			"image" : "/images/Travel.jpg",
-			"title" : "Travel",
-			"technologies":["HTML", "CSS", "JavaScript", "React"],
-			"description":"This is a travel web application that suggests cool places to visit.",
-			"live_link":"http://localhost:3000/portfolio/Travel",
-			"github_link":"http://localhost:3000/portfolio/Travel"
+			"images": ["/images/Natours_small.png","/images/Natours_medium.png","/images/Natours_large.png"],
+			"title": "Natours",
+			"skills":"HTML / CSS",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Sass",
+				"Animation",
+				"Responsible",
+				"JavaScript"
+			],
+			"description": "Modern website with lots of cool animations and images by using modern cutting-edge CSS techniques : Animations with @keyframes and transition, pseudo-classes and custom CSS properties including clip-path, background-clip, mask-image, background-blend-mode, shape-outside, filter, backdrop-filter, object-fit, transform, column-count, hyphens, perspective, calc() and so on. Since this project is focused on CSS, there's no actual functions implemented.",
+			"live_link": "https://toshikazukato.github.io/Natours/",
+			"github_link": "https://github.com/ToshikazuKato/Natours",
+			"color":"#55c57a"
 		},
-		{	
+		{
 			"id": 2,
-			"image": "/images/Coffee.jpg",
-			"title": "Coffee",
-			"technologies": ["HTML", "CSS", "JavaScript", "React", "Express"],
-			"description":"This app helps you find your favourites coffee beans by answering some questions.",
-			"live_link": "http://localhost:3000/portfolio/Coffee",
-			"github_link": "http://localhost:3000/portfolio/Coffee"
-		},
-		{	
-			"id": 3,
-			"image" : "/images/Japan.jpg",
-			"title" : "Japan",
-			"technologies": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
-			"description":"You'll find everything you need to know about Japan when you travel Japan.",
-			"live_link": "http://localhost:3000/portfolio/Japan",
-			"github_link": "http://localhost:3000/portfolio/Japan"
-		},
-		{	
-			"id": 4,
-			"image" : "/images/Engineer.jpg",
-			"title" : "Engineer",
-			"technologies": ["HTML", "CSS", "JavaScript", "React", "API" , "Express"],
-			"description":"Learning programming is hard when you try to master it by yourself. Let us help you learn new technology in an efficient way.",
-			"live_link": "http://localhost:3000/portfolio/Engineer",
-			"github_link": "http://localhost:3000/portfolio/Engineer"
+			"images": [
+				"/images/Trillo_small.png",
+				"/images/Trillo_medium.png",
+				"/images/Trillo_large.png"
+			],
+			"title": "Trillo",
+			"skills": "HTML / CSS",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Sass",
+				"Animation",
+				"Responsible",
+				"SVG",
+				"Flexbox"
+			],
+			"description": "Modern website with lots of cool animations by using Flexbox layouts. Again, there's no actual function because this project is achieved by only CSS. Flexbox helps my life a lot easier since it took me only a couple of hours to build this website.",
+			"live_link": "https://toshikazukato.github.io/Trillo/",
+			"github_link": "https://github.com/ToshikazuKato/Natours",
+			"color":"#eb2f64"
 		}
 	]
 }

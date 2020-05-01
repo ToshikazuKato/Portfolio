@@ -1,0 +1,43 @@
+#header{
+	padding: 0 4.8rem;
+	height: 10rem;
+	display: flex;
+	@include phone{
+		height:6rem;
+		padding:2.4rem;
+	}
+}	
+
+#intro{
+	flex:1;
+	@include flex-center;
+}
+
+#portfolio{
+	flex:1;
+	@include phone{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+#project{
+	flex:1;
+}
+
+#about{
+	flex:1;
+	@include phone{
+		margin-bottom: 1.6rem;
+	}
+}
+
+#footer{
+	display: flex;
+	height: 8rem;
+	margin-bottom: 1.6rem;
+	@include phone{
+		height:4rem;
+		margin-bottom: 3.2rem;
+	}
+}

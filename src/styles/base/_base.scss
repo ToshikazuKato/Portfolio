@@ -1,13 +1,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,400,600,700');
 @import './mixins';
+
+:root{
+	--color-base:#666666;
+	--color-light:#adadad;
+	--color-accent-1:#ff1e78;
+	--color-accent-2:#00dbe2;
+	--color-accent-3:#2E55C1;
+	--text-shadow: 0 0 2px #dfdfdf, 4px 4px 2px #dfdfdf;
+
+}
+
 $base-color:#666666;
 $light-color:#adadad;
 
 *{
 	margin:0;
 	padding:0;
-	font-size:62.5%;
 	@include phone(){
 		// overflow-y: scroll; 
 		// -webkit-overflow-scrolling: touch;
@@ -18,30 +28,59 @@ $light-color:#adadad;
 		user-select: none;
 	}
 }
-body{
-	font-size:1.6rem;
-	color:$base-color;
-	font-family: 'Poppins', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-	max-width: 1440px;
-	margin:0 auto;
-	overflow-x: hidden;
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
 }
 
-a{
-	text-decoration: none;
-	color:$light-color;
-}
-
-p{
-	font-size:1.6rem;
-}
-
-h2{
-	text-shadow: 0 0 1px #dfdfdf, 4px 4px 2px #dfdfdf;
-	font-size:4rem;
-	margin-bottom:1.6rem;
-	@include phone(){
-		font-size:3.2rem;
+html{
+	box-sizing:border-box;
+	font-size: 62.5%;
+	@include tablet-small{
+		font-size:50%; 
 	}
 }
 
+body{
+	color:var(--color-base);
+	font-family: 'Poppins', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.App{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	z-index: -100;
+	@include phone(){
+		padding: 0 ;
+	}
+}
+
+.heading-primary{
+	font-size:4rem;
+	margin-bottom: 2.4rem;
+	text-transform: uppercase;
+	@include phone{
+		font-size: 2.4rem;
+	}
+}
+
+.heading-secondary{
+	font-size:2.4rem;
+	margin-bottom: 2.4rem;
+	@include phone{
+		font-size: 2rem;
+	}
+}

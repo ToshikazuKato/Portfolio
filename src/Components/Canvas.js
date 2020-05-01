@@ -13,13 +13,14 @@ class Canvas extends Component {
 		 ];
 		const space = new CanvasSpace("#canvas").setup({ bgcolor: "#FFF"});
 		var form = new Form(space);
-		
+
 		// 2. Create ELements
 		const pts = [];
 		const center = space.size.$divide(1.8);
 		const angle = -(window.innerWidth * 0.5);
 	    let count = window.innerWidth * 0.02;
-		if (count > 150) count = 150
+		if (count > 150){count = 150;}else if (count<=25) {count=40;}
+		if(window.innerWidth <= 600) count=50;
 		const line = new Line(0, angle).to(space.size.x,0);
 		 var mouse = center.clone();
 		const r = Math.min(space.size.x, space.size.y) * 0.8;
@@ -70,7 +71,6 @@ class Canvas extends Component {
 		 space.bindMouse();
 		 space.bindTouch();
 		 space.play();
-
 	}
 
 	componentDidMount(){

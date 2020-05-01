@@ -1,10 +1,18 @@
+
 @mixin phone {
 	@media only screen and (max-width: 480px) {	
 		@content;
 	}
 }
-@mixin pc {
-	@media only screen and (min-width: 980px) {
+
+@mixin tablet-small {
+	@media only screen and (max-width: 600px) {	
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media only screen and (max-width: 900px) {
 		@content;
 	}
 }
@@ -15,6 +23,8 @@
 	align-items: center;
 }
 
-@mixin main-frame{
-	height:75vh;
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
