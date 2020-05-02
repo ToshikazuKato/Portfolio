@@ -61,6 +61,27 @@
 			"live_link": "https://toshikazukato.github.io/FormValidator/",
 			"github_link": "https://github.com/ToshikazuKato/FormValidator",
 			"color": "#3498db"
+		},
+		{
+			"id": 4,
+			"images": [
+				"/images/MovieSeatBooking_small.png",
+				"/images/MovieSeatBooking_medium.png",
+				"/images/MovieSeatBooking_large.png"
+			],
+			"title": "Movie Seat Booking",
+			"skills": "HTML / CSS / JavaScript",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Flexbox",
+				"Responsible",
+				"JavaScript"
+			],
+			"description": "Simple Movie Seat Booking UI with dynamic calculation of price depending on what user select. In addition, local storage has been used so that data stay on the browser even if user refresh the page.",
+			"live_link": "https://toshikazukato.github.io/MovieSeatBooking/",
+			"github_link": "https://github.com/ToshikazuKato/MovieSeatBooking",
+			"color": "#242333"
 		}
 	]
 }
