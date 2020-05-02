@@ -4,7 +4,7 @@
 			"id": 1,
 			"images": ["/images/Natours_small.png","/images/Natours_medium.png","/images/Natours_large.png"],
 			"title": "Natours",
-			"skills":"HTML / CSS",
+			"skills":"HTML / CSS / JavaScript",
 			"tags": [
 				"HTML",
 				"CSS",
@@ -40,6 +40,27 @@
 			"live_link": "https://toshikazukato.github.io/Trillo/",
 			"github_link": "https://github.com/ToshikazuKato/Natours",
 			"color":"#eb2f64"
+		},
+		{
+			"id": 3,
+			"images": [
+				"/images/FormValidator_small.png",
+				"/images/FormValidator_medium.png",
+				"/images/FormValidator_large.png"
+			],
+			"title": "FormValidator",
+			"skills": "HTML / CSS / JavaScript",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Flexbox",
+				"Responsible",
+				"JavaScript"
+			],
+			"description": "Simple Modern Form with basic validation of length, email and passwords match. Simple CSS and JavaScript allow us to implement dynamic style change depending on input value. It took 1 hour to complete this mini project from scratch.",
+			"live_link": "https://toshikazukato.github.io/FormValidator/",
+			"github_link": "https://github.com/ToshikazuKato/FormValidator",
+			"color": "#3498db"
 		}
 	]
 }
