@@ -82,6 +82,49 @@
 			"live_link": "https://toshikazukato.github.io/MovieSeatBooking/",
 			"github_link": "https://github.com/ToshikazuKato/MovieSeatBooking",
 			"color": "#242333"
+		},
+		{
+			"id": 5,
+			"images": [
+				"/images/CustomVideoPlayer_small.png",
+				"/images/CustomVideoPlayer_medium.png",
+				"/images/CustomVideoPlayer_large.png"
+			],
+			"title": "Custom Video Player",
+			"skills": "HTML / CSS / JavaScript",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Flexbox",
+				"Responsible",
+				"JavaScript"
+			],
+			"description": "Custom Video Player which users can manipulate a video by using benefit of html5 video API.",
+			"live_link": "https://toshikazukato.github.io/CustomVideoPlayer/",
+			"github_link": "https://github.com/ToshikazuKato/CustomVideoPlayer",
+			"color": "#666"
+		},
+		{
+			"id": 6,
+			"images": [
+				"/images/ExchangeRateCalculator_small.png",
+				"/images/ExchangeRateCalculator_medium.png",
+				"/images/ExchangeRateCalculator_large.png"
+			],
+			"title": "Exchange Rate Calculator",
+			"skills": "HTML / CSS / JavaScript",
+			"tags": [
+				"HTML",
+				"CSS",
+				"Flexbox",
+				"Responsible",
+				"JavaScript",
+				"api"
+			],
+			"description": "Exchange Rate Calculator App by connecting external api. You can check api document by visiting https://api.exchangerate-api.com",
+			"live_link": "https://toshikazukato.github.io/ExchangeRateCalculator/",
+			"github_link": "https://github.com/ToshikazuKato/ExchangeRateCalculator",
+			"color": "#5fbaa7"
 		}
 	]
 }
