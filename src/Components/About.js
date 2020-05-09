@@ -10,7 +10,7 @@ class About extends Component {
 					<img className="about__photo" src='/images/me-x-small.jpg' alt='myself'></img>
 					<h2 className="heading-secondary">Hi, I'm Toshikazu Horioka.</h2>
 					<p className="about__paragraph">
-						I am a fullstack engineer with skills in HTML, CSS, JavaScript, React, Node.js, PHP, MYSQL and so on.
+						I am a fullstack engineer with skills in HTML, CSS, JavaScript, React.js, Node.js, PHP, Express, MYSQL, mongoDB and so on.
 						I build web services that make the world better and help people live better. I am passionate about building
 						modern web design and providing an engaging user experience on all platforms.
 					</p>
