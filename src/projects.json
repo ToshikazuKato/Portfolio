@@ -2,7 +2,6 @@
 	"projects": [
 		{
 			"id": 1,
-<<<<<<< HEAD
 			"images": ["/images/Natours_small.png","/images/Natours_medium.png","/images/Natours_large.png"],
 			"title": "Natours",
 			"skills":"HTML / CSS / JavaScript",
@@ -18,18 +17,9 @@
 			"live_link": "https://toshikazukato.github.io/Natours/",
 			"github_link": "https://github.com/ToshikazuKato/Natours",
 			"color":"#55c57a"
-=======
-			"images" : ["/images/StartPage.png","/images/OpeningPage.png","/images/CorrectLetter.png","/images/WrongLetter.png","/images/GameClear.png"],
-			"title" : "Phrase Hunter",
-			"technologies":["HTML", "CSS", "JavaScript"],
-			"description":"This is a travel web application that suggests cool places to visit.",
-			"live_link":"http://localhost:3000/portfolio/Travel",
-			"github_link":"http://localhost:3000/portfolio/Travel"
->>>>>>> develop
 		},
 		{
 			"id": 2,
-<<<<<<< HEAD
 			"images": [
 				"/images/Trillo_small.png",
 				"/images/Trillo_medium.png",
@@ -50,18 +40,9 @@
 			"live_link": "https://toshikazukato.github.io/Trillo/",
 			"github_link": "https://github.com/ToshikazuKato/Natours",
 			"color":"#eb2f64"
-=======
-			"images": ["/images/GalleryPage.png","/images/SearchGallery.png"],
-			"title": "Public API",
-			"technologies": ["HTML", "CSS", "JavaScript", "React", "API"],
-			"description":"This app helps you find your favourites coffee beans by answering some questions.",
-			"live_link": "http://localhost:3000/portfolio/Coffee",
-			"github_link": "http://localhost:3000/portfolio/Coffee"
->>>>>>> develop
 		},
 		{
 			"id": 3,
-<<<<<<< HEAD
 			"images": [
 				"/images/FormValidator_small.png",
 				"/images/FormValidator_medium.png",
@@ -80,18 +61,9 @@
 			"live_link": "https://toshikazukato.github.io/FormValidator/",
 			"github_link": "https://github.com/ToshikazuKato/FormValidator",
 			"color": "#3498db"
-=======
-			"images" : ["/images/BookList.png","/images/SearchBook.png","/images/BookDetails.png","/images/CreateBook.png"],
-			"title" : "Library Manager",
-			"technologies": ["HTML", "CSS", "JavaScript", "Pug", "Sequelize"],
-			"description":"You'll find everything you need to know about Japan when you travel Japan.",
-			"live_link": "http://localhost:3000/portfolio/Japan",
-			"github_link": "http://localhost:3000/portfolio/Japan"
->>>>>>> develop
 		},
 		{
 			"id": 4,
-<<<<<<< HEAD
 			"images": [
 				"/images/MovieSeatBooking_small.png",
 				"/images/MovieSeatBooking_medium.png",
@@ -153,14 +125,6 @@
 			"live_link": "https://toshikazukato.github.io/ExchangeRateCalculator/",
 			"github_link": "https://github.com/ToshikazuKato/ExchangeRateCalculator",
 			"color": "#5fbaa7"
-=======
-			"images" : ["/images/Login.png","/images/CourseList.png","/images/CourseDetails.png","/images/CourseUpdate.png"],
-			"title" : "React with Node.js",
-			"technologies": ["HTML", "CSS", "JavaScript", "React", "API" , "Express","Node.js"],
-			"description":"Learning programming is hard when you try to master it by yourself. Let us help you learn new technology in an efficient way.",
-			"live_link": "http://localhost:3000/portfolio/Engineer",
-			"github_link": "http://localhost:3000/portfolio/Engineer"
->>>>>>> develop
 		}
 	]
 }
