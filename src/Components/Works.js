@@ -14,7 +14,6 @@ class Works extends Component {
 	getPortfolios = () => {
 		// const title = this.props.match.url.replace('/portfolio/', '');
 		// const prj = projects.filter(v => v.title !== title);
-<<<<<<< HEAD
 		this.setState({ data: projects });
 	};
 
@@ -25,10 +24,6 @@ class Works extends Component {
 	changeBtnHover = (target,color) => {
 		target.style = `background-color:${color};border:3px solid ${color};`;
 	};
-=======
-		this.setState({ data: projects});
-	}
->>>>>>> develop
 
 	renderProjectDetails = (e, val) => {
 		e.preventDefault();
@@ -43,7 +38,6 @@ class Works extends Component {
 		});
 	};
 
-<<<<<<< HEAD
 	render() {
 		return (
 			<div className='portfolio__container'>
@@ -86,19 +80,6 @@ class Works extends Component {
 									>
 										LEARN MORE
 									</button>
-=======
-	render(){
-		return(
-			<div id="works">
-				{
-					this.state.data.map( (v,i) => {
-						
-						return  <div className="container" key={i} onClick={(e) => this.renderProjectDetails(e, v)}>
-									<img className="image" src={v.images[0]} alt="Project"></img>
-									<div className="overlay">
-										<p>{v.title}</p>
-									</div>
->>>>>>> develop
 								</div>
 							</div>
 						</div>

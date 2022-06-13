@@ -3,24 +3,12 @@ import Works from './Works';
 // import Canvas from './Canvas';
 class Project extends Component {
 
-<<<<<<< HEAD
 	// state = {
 	// 	project:[]
 	// };
 	constructor(props) {
 		super(props);
 		this.state = { project: props.location.state.project };
-=======
-	state = {
-		project:[]
-	};
-	componentWillMount(){
-		this.setState({ project: this.props.location.state.project },
-			() => console.log(this.state, 'state'));
-	}
-	componentDidMount(){
-		this.updateContents();
->>>>>>> develop
 	}
 	componentDidUpdate(){
 		if (this.state.project !== this.props.location.state.project){
@@ -28,7 +16,6 @@ class Project extends Component {
 		}
 	}
 	updateContents = () => {
-<<<<<<< HEAD
 		this.setState({
 			project: this.props.location.state.project
 		},()=>{
@@ -84,26 +71,6 @@ class Project extends Component {
 							</ul>
 						</div>
 					</div>
-=======
-		this.setState({project: this.props.location.state.project},
-			() => console.log(this.state, 'state'));
-	}
-	render(){
-		return <div id="project">
-					<h2>{this.state.project.title}</h2>
-					<ul> 
-						{/* <h3>Skills : </h3> */}
-						{this.state.project.technologies.map( (tech,i) => {
-						return <li key={i}>{tech}</li>
-						} )}
-					</ul>
-					{
-						this.state.project.images.map( (img,i) =>{
-							return <img src={img} alt={this.state.project.title} key={i}></img>
-						})
-					}
-					{/* <img src={this.state.project.image} alt={this.state.project.title}></img> */}
->>>>>>> develop
 					{/* <div className="project-description">
 						<p>{this.state.project.description}</p>
 					</div> */}
