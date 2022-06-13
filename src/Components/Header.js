@@ -13,9 +13,9 @@ class Header extends Component {
 				Toshikazu, H
 			</Link>
 		</div>
-		<div className='navigation__item'>
+		{/* <div className='navigation__item'>
 			<NavLink to='/portfolio' className='navigation__link'>Projets</NavLink>
-		</div>
+		</div> */}
 		<div className='navigation__item'>
 			<NavLink to='/me' className='navigation__link'>About</NavLink>
 		</div>
