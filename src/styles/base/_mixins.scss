@@ -1,18 +1,42 @@
+<<<<<<< HEAD
+=======
+@mixin iphone5 {
+	@media only screen and (max-width : 320px) {	
+		@content;
+	}
+}
+>>>>>>> develop
 
 @mixin phone {
-	@media only screen and (max-width: 480px) {	
+	@media only screen and (max-width : 480px) {	
 		@content;
 	}
 }
 
+<<<<<<< HEAD
 @mixin tablet-small {
 	@media only screen and (max-width: 600px) {	
+=======
+@mixin ipad {
+	@media only screen and (min-width:768px) and (max-width: 1024px) {
+>>>>>>> develop
 		@content;
 	}
 }
 
+<<<<<<< HEAD
 @mixin tablet {
 	@media only screen and (max-width: 900px) {
+=======
+@mixin ipadpro{
+	@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+		@content;
+	}
+}
+
+@mixin pc {
+	@media only screen and (min-width: 1366px) {
+>>>>>>> develop
 		@content;
 	}
 }
